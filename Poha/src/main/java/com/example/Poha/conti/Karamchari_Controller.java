@@ -31,4 +31,10 @@ public String update(@RequestParam String name ,@RequestParam Long id){
       return   karamchari_service.delete(name);
     }
 
+    //hello mello
+    // cj
+    public void mernayamethod(){
+        System.out.println("learnings");
+    }
+
 }
